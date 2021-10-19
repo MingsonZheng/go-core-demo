@@ -44,18 +44,20 @@ func main() {
 		fmt.Println()
 	}
 	// 示例3。
-	// {
-	// 	type MyString1 = string
-	// 	type MyString2 string
-	// 	str := "BCD"
-	// 	myStr1 := MyString1(str)
-	// 	myStr2 := MyString2(str)
-	// 	myStr1 = MyString1(myStr2)
-	// 	myStr2 = MyString2(myStr1)
+	{
+		type MyString1 = string
+		type MyString2 string
+		str := "BCD"
+		myStr1 := MyString1(str)
+		myStr2 := MyString2(str)
+		myStr1 = MyString1(myStr2)
+		myStr2 = MyString2(myStr1)
 
-	// 	myStr1 = str
-	// 	myStr2 = str    // 这里的赋值不合法，会引发编译错误。
-	// 	myStr1 = myStr2 // 这里的赋值不合法，会引发编译错误。
-	// 	myStr2 = myStr1 // 这里的赋值不合法，会引发编译错误。
-	// }
+		myStr1 = str
+		//myStr2 = str    // 这里的赋值不合法，会引发编译错误。
+		//myStr1 = myStr2 // 这里的赋值不合法，会引发编译错误。
+		//myStr2 = myStr1 // 这里的赋值不合法，会引发编译错误。
+
+		_ = myStr2
+	}
 }
