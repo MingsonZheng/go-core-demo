@@ -21,7 +21,7 @@ func (cat *Cat) SetName(name string) {
 }
 
 func (cat Cat) SetNameOfCopy(name string) {
-	cat.name = name
+	// cat.name = name
 }
 
 func (cat Cat) Name() string {
