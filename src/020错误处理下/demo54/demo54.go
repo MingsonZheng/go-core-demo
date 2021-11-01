@@ -14,9 +14,9 @@ func GetPrimes(max int) []int {
 	var count int
 	squareRoot := int(math.Sqrt(float64(max)))
 	for i := 2; i <= squareRoot; i++ {
-		if marks[i] == false {
+		if !marks[i] {
 			for j := i * i; j < max; j += i {
-				if marks[j] == false {
+				if !marks[i] {
 					marks[j] = true
 					count++
 				}
@@ -25,7 +25,7 @@ func GetPrimes(max int) []int {
 	}
 	primes := make([]int, 0, max-count)
 	for i := 2; i < max; i++ {
-		if marks[i] == false {
+		if !marks[i] {
 			primes = append(primes, i)
 		}
 	}
