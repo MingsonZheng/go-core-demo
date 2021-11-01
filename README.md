@@ -1,2 +1,3 @@
 # go-core-demo
-go language core examples
+
+Go语言核心36讲学习源码
