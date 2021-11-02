@@ -1,7 +1,7 @@
 package main
 
 import (
-	"demo5/lib"
+	"003库源码文件/demo5/lib"
 	"flag"
 )
 
