@@ -21,3 +21,8 @@ Go语言核心36讲学习源码
 - [021panic函数、recover函数以及defer语句](https://github.com/MingsonZheng/go-core-demo/tree/main/src/021panic%E5%87%BD%E6%95%B0%E3%80%81recover%E5%87%BD%E6%95%B0%E4%BB%A5%E5%8F%8Adefer%E8%AF%AD%E5%8F%A5)
 - [023测试的基本规则和流程](https://github.com/MingsonZheng/go-core-demo/tree/main/src/023%E6%B5%8B%E8%AF%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99%E5%92%8C%E6%B5%81%E7%A8%8B)
 - [025更多的测试手法](https://github.com/MingsonZheng/go-core-demo/tree/main/src/025%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%B5%8B%E8%AF%95%E6%89%8B%E6%B3%95)
+- [026sync.Mutex与sync.RWMutex](https://github.com/MingsonZheng/go-core-demo/tree/main/src/026sync.Mutex%E4%B8%8Esync.RWMutex)
+- [027条件变量sync.Cond](https://github.com/MingsonZheng/go-core-demo/tree/main/src/027%E6%9D%A1%E4%BB%B6%E5%8F%98%E9%87%8Fsync.Cond)
+- [029原子操作](https://github.com/MingsonZheng/go-core-demo/tree/main/src/029%E5%8E%9F%E5%AD%90%E6%93%8D%E4%BD%9C)
+- [031sync.WaitGroup和sync.Once](https://github.com/MingsonZheng/go-core-demo/tree/main/src/031sync.WaitGroup%E5%92%8Csync.Once)
+- [032context.Context类型](https://github.com/MingsonZheng/go-core-demo/tree/main/src/032context.Context%E7%B1%BB%E5%9E%8B)
