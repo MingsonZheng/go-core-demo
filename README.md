@@ -26,7 +26,7 @@ Go语言核心36讲学习源码
 - [029原子操作](https://github.com/MingsonZheng/go-core-demo/tree/main/src/029%E5%8E%9F%E5%AD%90%E6%93%8D%E4%BD%9C)
 - [031sync.WaitGroup和sync.Once](https://github.com/MingsonZheng/go-core-demo/tree/main/src/031sync.WaitGroup%E5%92%8Csync.Once)
 - [032context.Context类型](https://github.com/MingsonZheng/go-core-demo/tree/main/src/032context.Context%E7%B1%BB%E5%9E%8B)
-- [033临时对象池sync.Pool](https://github.com/MingsonZheng/go-core-demo/tree/main/src/033%E4%B8%B4%E6%97%B6%E5%AF%B9%E8%B1%A1%E6%B1%A0sync.Pool/demo70)
+- [033临时对象池sync.Pool](https://github.com/MingsonZheng/go-core-demo/tree/main/src/033%E4%B8%B4%E6%97%B6%E5%AF%B9%E8%B1%A1%E6%B1%A0sync.Pool)
 - [034并发安全字典sync.Map](https://github.com/MingsonZheng/go-core-demo/tree/main/src/034%E5%B9%B6%E5%8F%91%E5%AE%89%E5%85%A8%E5%AD%97%E5%85%B8sync.Map)
 - [036unicode与字符编码](https://github.com/MingsonZheng/go-core-demo/tree/main/src/036unicode%E4%B8%8E%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81)
 - [037strings包与字符串操作](https://github.com/MingsonZheng/go-core-demo/tree/main/src/037strings%E5%8C%85%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C)
